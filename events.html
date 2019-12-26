@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Events & Upcoming</title>
+    <link rel="stylesheet" href="style.css"><script src="https://code.jquery.com/jquery-3.4.1.js"></script><script>$(window).on("load",function(){
+            $(".loader-wrapper").fadeOut("slow");});</script>
+</head>
+<body>
+        <div class="loader-wrapper" style="z-index:1000;background-color:black;margin:0px;padding:0px;position: fixed;width: 100%;height: 100%;">
+                <div class="container" >
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                    </div>
+        </div>
+    <div class="second">
+        <img src="photos/google-scholar-icon-4.jpg" height="100px" width="100px">
+    </div>
+    <div class="second"><h1>LEARNING SCHOOL</h1></div>
+    <div class="second"><a href="tel:9013250805"><p style="color:#4CAF50;">📞</p> </A><B> Call Now</B><br>9013250805</div>
+    <div class="second"><a href="mailto:priyachawla230@gmail.com"><p style="color: #4CAF50">✉️</p> </a><B>Send Message</B> <br> priyachawla230@gmail.com</div>
+    <div class="second"><a href="mailto:priyachawla230@gmail.com"><p style="color: #4CAF50">🏠</p></a><B>Our Location </B><br> 11/147 Geeta Colony,Delhi</div>
+    <div class="first">
+        <ul>
+           <li><a href="index.html" style="color: rgb(156, 9, 214);font-family: Comic Sans MS;"><b>Home</b></a> </li>
+           <li>
+            <div class="dropdown">
+                <button class="button" style="font-weight: 500">Students</button>
+                    <div class="content">
+                       <a href="login.html" >Student/Parent Login</a>
+                       <a href="student.html" >Timetable</a>
+                       <a href="student.html">Syllabus</a>
+                       <a href="houses.html">Student Council</a>
+                    </div>
+            </div>
+           </li>
+           <li>
+            <div class="dropdown">
+                 <button class="button" style="font-weight: 500">Academic</button>
+                     <div class="content">
+                        <a href="academic.html" >Curriculum</a>
+                        <a href="studypattern.html" >studypattern</a>
+                     </div>
+             </div>
+            </li>
+           <li><a href="events.html"style="color: rgb(156, 9, 214);font-family: Comic Sans MS;"><b>Events</b></a></li>
+           <li><a href="about.html"style="color: rgb(156, 9, 214);font-family: Comic Sans MS;"><b>About</b></a></li> 
+           <li><a href="contact.html"style="color: rgb(156, 9, 214);font-family: Comic Sans MS;"><b>Contact</b></a></li>
+        </ul>
+    </div>
+    <div  style="width: 100%;height:50px;float: left" ></div>
+    <div onmouseover="this.style.background='brown';"onclick="myFunction()" ; onmouseout="this.style.background='chocolate';"style="background-color: chocolate;display: inline;margin-left:300px;margin-top: 100px;float: left;text-align: center;padding: 50px; margin-bottom: 0px">
+        <h1>Upcoming Events</h1>
+    </div>
+    <div onmouseover="this.style.background='seagreen';"onclick="myFunction2()" ; onmouseout="this.style.background='lightseagreen';"style="display: inline;;background-color: lightseagreen;margin-right:15%;margin-top:0%;float: right;text-align: center;padding-left:7px;padding-right:7px;padding-bottom: 50px;padding-top: 50px;margin-bottom: 0px">
+        <h1>Workshops & Seminars</h1>
+    </div>
+    <div onmouseover="this.style.background='coral';"onclick="myFunction3()" ; onmouseout="this.style.background='lightcoral';"style="display: inline;;background-color: lightcoral; margin-left:15%;float: left;text-align: center;padding:50px">
+        <h1>School Functions</h1>
+    </div>
+    <div  style="width: 100%;height:50px;float: left" ></div>
+    <div  style="width: 100%;height:50px;float: left" ></div>  
+    <h3 id="demo1" style="width: 500px;height: 100px;z-index: 1000;"></h3>
+    <h3 id="demo2" style="width: 500px;height: 100px;z-index: 1000;"></h3>
+    <h3 id="demo3" style="width: 500px;height: 100px;z-index: 1000;"></h3>
+    <script>
+        function myFunction() {
+        document.getElementById("demo1").innerHTML = "Geetanjali Fest 2019";
+        }
+        function myFunction2() {
+        document.getElementById("demo2").innerHTML = "Geetanjali Fest 2019";
+        }
+        function myFunction3() {
+        document.getElementById("demo3").innerHTML = "Geetanjali Fest 2019";
+        }
+    </script>
+     <div  style="width: 100%;height:50px;float: left" ></div>
+     <div class="fourth" style="padding:10px;padding-left: 30px; height: 209px; width: 31.5%; display: inline-block;float:left;">
+        <h2 style="color:rgb(236, 73, 73) ;">USEFUL LINKS</h2>
+        <a href="index.html" style="color: white"><b>❇️ Home</b></a> <br>
+        <a href="academic.html" style="color: white"><b>❇️ Academic</b></a><br>
+        <a href="events.html" style="color: white"><b>❇️ Events</b></a><br>
+        <a href="about.html" style="color: white"><b>❇️ About</b></a><br>
+        <br>
+        <br>
+    </div>
+    <div class="fourth" style="padding:5px;padding-right: 14.40%;padding-bottom:34px;padding-left:14% ; text-align: right;  height: 190px;  width:12.0%; display: inline-block;float:right;">
+             <br>
+            <input style="height: 50px;width=70px;border-radius=5px"; name="searchitem" type="search" placeholder="🔍search here"><br><br><p>©️ copyright- All Rights Reserved</p><br><br><br><br>   
+    </div>
+    <div class="fourth" style="padding:10px;padding-right:2.6%; height: 209px;  width: 20.45%; display: inline-block;float:left;overflow: hidden;">
+        <a style="color: rgb(236, 73, 73) ;text-align: right; font-size: larger" href="about.html">About us</a>
+        <p style="font-family: arial;text-align: justify;">
+        We provide high quality, student-centered education and lifelong learning opportunities for the communities we serve.
+        </p>
+    </div>
+    
+</body>
+</html>
